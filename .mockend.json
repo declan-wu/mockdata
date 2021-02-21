@@ -1,18 +1,14 @@
 {
-  "users": [
-    {
-        "id": 1,
-        "name": "Leanne Graham",
-        "email": "grahaml@mcmaster.ca",
-        "departments": ["chemeng", "engphys", "civil"],
-        "roles": ["instructor", "department coordinators"]
-    },
-    {
-        "id": 2,
-        "name": "Leanne Graham",
-        "email": "grahaml@mcmaster.ca",
-        "departments": ["chemeng", "engphys", "civil"],
-        "roles": ["instructor", "department coordinators"]
-    }
-  ]
+  "users": {
+    "users": "user[]"
+  },
+  "user": {
+    "id": "int",
+    "name": "string",
+    "email": "string",
+    "departments": "department[]",
+    "roles": "role[]"
+  },
+  "department": "string",
+  "role": "string"
 }
